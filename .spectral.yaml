@@ -1,7 +1,4 @@
 extends: "spectral:oas"
 
 # Project-specific Spectral overrides can go under `rules`.
-# Keep this minimal to provide a base ruleset for the CI job.
-rules:
-  operation-ids: off
-  info-contact: off
+# Empty for now to avoid invalid rule names causing Spectral to fail in CI.
