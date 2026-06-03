@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Docker container
         run: |
-          docker run -d --rm \
+          docker run -d \
             --name fit4110-iot-lab04 \
             -p 8000:8000 \
             --env-file .env.example \
